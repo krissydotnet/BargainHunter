@@ -18,10 +18,10 @@ namespace BargainHunterAPI.Controllers
         }
 
         // GET: api/Products/5
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
+        public Products Get(int id)
+        {
+            return ProductsRepository.GetProduct();
+        }
 
         // POST: api/Products
         
