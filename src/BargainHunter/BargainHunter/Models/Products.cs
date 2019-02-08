@@ -8,7 +8,6 @@ namespace BargainHunterAPI.Models
     public class Products
     {
         public int ID { get; set; }
-        public string Retailer { get; set; }
         public string BrandName { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
